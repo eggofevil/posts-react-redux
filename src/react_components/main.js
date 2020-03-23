@@ -30,7 +30,7 @@ export class Main extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Hello world!!!</h1>
+				<h1>Posts react-redux</h1>
 				<Input onChange={this.handleInput} value={this.state.input}/>
 				<SubmitButton onClick={this.submitPost} />
 				<Posts posts={this.props.posts}/>
