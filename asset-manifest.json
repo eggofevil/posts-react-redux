@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/eggofevil/posts-react-redux.git/static/js/main.167e1ae9.chunk.js",
-    "main.js.map": "/eggofevil/posts-react-redux.git/static/js/main.167e1ae9.chunk.js.map",
-    "runtime-main.js": "/eggofevil/posts-react-redux.git/static/js/runtime-main.b9397cc7.js",
-    "runtime-main.js.map": "/eggofevil/posts-react-redux.git/static/js/runtime-main.b9397cc7.js.map",
-    "static/js/2.acba3a24.chunk.js": "/eggofevil/posts-react-redux.git/static/js/2.acba3a24.chunk.js",
-    "static/js/2.acba3a24.chunk.js.map": "/eggofevil/posts-react-redux.git/static/js/2.acba3a24.chunk.js.map",
-    "index.html": "/eggofevil/posts-react-redux.git/index.html",
-    "precache-manifest.935fde15af5cf50c2abbd47a40b301f8.js": "/eggofevil/posts-react-redux.git/precache-manifest.935fde15af5cf50c2abbd47a40b301f8.js",
-    "service-worker.js": "/eggofevil/posts-react-redux.git/service-worker.js",
-    "static/js/2.acba3a24.chunk.js.LICENSE.txt": "/eggofevil/posts-react-redux.git/static/js/2.acba3a24.chunk.js.LICENSE.txt"
+    "main.js": "/eggofevil/posts-react-redux/static/js/main.167e1ae9.chunk.js",
+    "main.js.map": "/eggofevil/posts-react-redux/static/js/main.167e1ae9.chunk.js.map",
+    "runtime-main.js": "/eggofevil/posts-react-redux/static/js/runtime-main.4a2edb00.js",
+    "runtime-main.js.map": "/eggofevil/posts-react-redux/static/js/runtime-main.4a2edb00.js.map",
+    "static/js/2.acba3a24.chunk.js": "/eggofevil/posts-react-redux/static/js/2.acba3a24.chunk.js",
+    "static/js/2.acba3a24.chunk.js.map": "/eggofevil/posts-react-redux/static/js/2.acba3a24.chunk.js.map",
+    "index.html": "/eggofevil/posts-react-redux/index.html",
+    "precache-manifest.9d3bb61fd8a4d06e12930df737b9b957.js": "/eggofevil/posts-react-redux/precache-manifest.9d3bb61fd8a4d06e12930df737b9b957.js",
+    "service-worker.js": "/eggofevil/posts-react-redux/service-worker.js",
+    "static/js/2.acba3a24.chunk.js.LICENSE.txt": "/eggofevil/posts-react-redux/static/js/2.acba3a24.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b9397cc7.js",
+    "static/js/runtime-main.4a2edb00.js",
     "static/js/2.acba3a24.chunk.js",
     "static/js/main.167e1ae9.chunk.js"
   ]
