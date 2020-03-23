@@ -1,17 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { Provider, connect } from 'react-redux';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//import redux store
+import { store, addPost } from './redux/redux.js';
+//import main react component
+import { Main } from './react_components/main.js';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+//map redux store to react component props
+const mapStateToProps = (state) => {
+	return {
+		posts: state.posts,
+	};
+};
+const mapDispatchToProps = (dispatch) => {
+	return {
+		submitNewPost: (post) => {
+			dispatch(addPost(post));
+		}
+	};
+};
+
+//connet redux store to react component
+const Container = connect(mapStateToProps, mapDispatchToProps)(Main);
+
+class AppWrapper extends React.Component {
+	render() {
+		return (
+			<Provider store={store}>
+				<Container />
+			</Provider>
+		);
+	}
+}
+
+ReactDOM.render(<AppWrapper />, document.getElementById('root'));
